@@ -1,13 +1,10 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import UserCard from "./UserCard";
+import React from "react";
+import GetData from "./components/GetData";
 
 function App() {
- 
-
   return (
     <div>
-           <UserCard userId={2} />
+           <GetData userId={2} />
 
     </div>
   );
